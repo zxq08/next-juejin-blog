@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.locket {
+  width: 275px;
+  height: 400px;
+  background-image: url(../pages/home/icons/rocket.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* @keyframes spin {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+} */
+/* .flames {
+  width: 47px;
+  height: 133px;
+  background-image: url(./flames.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 122px;
+  top: 318px;
+  z-index: -1;
+  animation: spin 0.3s ease-in infinite;
+} */
+
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
