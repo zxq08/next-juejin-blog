@@ -18,6 +18,7 @@ export interface ArticleInfo {
     collect_count: number;
     digg_count: number;
     comment_count: number;
+    mark_content: string;
 }
 
 export interface Category {
